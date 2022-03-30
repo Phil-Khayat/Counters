@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
     <div className="App">
-      <button type="button" class="btn btn-danger" id="result">{this.state.count} !!!!!!</button>
+      <button type="button" class="btn btn-danger" id="result">{this.state.count}</button>
       <button type="button" onClick={this.increment} class="btn btn-primary"id="increment">Incrémenter</button>
       <button type="button" onClick={this.decrement} class="btn btn-success"id="decrement">Décrémenter</button>
     </div>
